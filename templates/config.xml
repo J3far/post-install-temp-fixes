@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Settings>
+  <remoteRepository>https://github.com/J3far/post-install-temp-fixes</remoteRepository>
+  <!-- use ./ to default to current location of the power shell script -->
+  <localRepository>./</localRepository>
+  <!-- out put package destination folder, use ./ to save in the current location -->
+  <packageDestination>./postinstallpackage</packageDestination>
+  <!-- Prefix of the versions to be checked out from the remote repository. Leave this as is -->
+  <versionPrefix>v</versionPrefix>
+  <!-- True or False,Set interactiveMode to true to read the following setting from user instead of reaing from this xml file  -->
+  <interactiveMode>True</interactiveMode>
+  <!-- The following configurations can be chnaged before running the batc file -->
+  <!-- Customer, All, USCustomers,AUCustomers, can also use individula customer codes like AUCOF to get a post install packages for specific customers -->
+  <customerCode>All</customerCode>
+  <targetQNVersion>v1.28</targetQNVersion>
+  <minimumQNVersion>v1.27</minimumQNVersion>
+</Settings>
